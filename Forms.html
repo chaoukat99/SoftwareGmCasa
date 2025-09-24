@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <style>
+      
+        
+    </style>
+</head>
+<body>
+    <h1>Formulaires</h1>
+    <!-- Formulaire-->
+
+    <form action="" method="post">
+       <label for="user" >Name : </label><br>
+        <input type="text" name="username" id="user"  placeholder="insert your name" autocomplete="off" ><br>
+         <label for="">AGE : </label><br>
+        <input type="number" name="age" placeholder="AGE" autocomplete="off">
+        <input type="email" name="userEmail" id="" autocomplete="off">
+        <input type="search" name="" id="">
+        <br>
+        <input type="password" name="" id="">
+
+        <button>
+            Click   
+        </button>
+        <hr>
+        
+<h2>Date:</h2>
+<input type="date" name="" id="">
+<input type="time" name="" id="">
+<hr>
+<input type="datetime-local" name="" id="">
+<!--mois-->
+<input type="month" name="" id="">
+<!--mois-->
+<input type="week" name="" id="">
+
+<!-- Checkbox & radios-->
+<input type="checkbox" name="" id="">
+
+<label for="m">Male</label>
+<input type="radio" name="gender" id="m">
+<label for="f">Female</label>
+<input type="radio" name="gender" id="f">
+
+
+
+
+
+
+
+
+<input type="color" name="" id="color">
+<button>Click</button>
+<input type="submit" value="annuler" pattern="">
+    </form>
+
+
+    <script>
+        document.querySelector("#color").oninput=(ev)=>{
+
+            document.body.style.background=ev.target.value;
+        }
+    </script>
+</body>
+</html>
