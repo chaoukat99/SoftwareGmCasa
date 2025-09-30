@@ -1,0 +1,108 @@
+/* Css Syntax
+
+*/
+
+/* Selector{
+    property:value;
+    property:value;
+    property:value;
+    property:value;
+} */
+
+
+
+/* Selecteur Css */
+
+
+/* Tagname */
+
+
+h1{
+    color: red;
+}
+
+
+/* p{
+    color: blue;
+} */
+
+
+/* By id  */
+
+#para1{
+    color: green;
+}
+
+
+#elm1{
+    color: orange;
+}
+#elm2{
+    color: orange;
+
+}
+#elm3{
+    color: orange;
+
+}
+
+
+/* by classname */
+
+
+.elm{
+
+    color: orange;
+}
+
+.cls{
+    color: red;
+}
+
+.cls2{
+    color: green;
+}
+
+.cls3{
+    color: yellow;
+}
+
+
+.cls.cls2.cls3{
+    color: pink;
+}
+
+input{
+    display: block;
+}
+
+/* selection by attribute  */
+
+[type="password"]{
+background-color: red;
+}
+
+
+
+a[href="https://www.youtube.com"]{
+    color: red;
+}
+
+
+
+
+
+section h2{
+ color: red;
+}
+
+
+footer .section h2{
+    color: GREEN;
+}
+
+
+
+li:not(.my_item){
+    color: red;
+}

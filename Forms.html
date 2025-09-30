@@ -15,14 +15,14 @@
     <!-- Formulaire-->
 
     <form action="" method="post">
-       <label for="user" >Name : </label><br>
-        <input type="text" name="username" id="user"  placeholder="insert your name" autocomplete="off" ><br>
+       <label for="user" >Name : (*) </label><br>
+        <input type="text" name="username" id="user"  placeholder="insert your name" autocomplete="off" required  ><br>
          <label for="">AGE : </label><br>
-        <input type="number" name="age" placeholder="AGE" autocomplete="off">
+        <input type="number" min="5" max="120" name="age" placeholder="AGE" autocomplete="off" >
         <input type="email" name="userEmail" id="" autocomplete="off">
         <input type="search" name="" id="">
         <br>
-        <input type="password" name="" id="">
+        <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="" id="">
 
         <button>
             Click   
@@ -41,6 +41,9 @@
 
 <!-- Checkbox & radios-->
 <input type="checkbox" name="" id="">
+<input type="checkbox" name="" id="">
+<input type="checkbox" checked name="" id="">
+<input type="checkbox" name="" id="">
 
 <label for="m">Male</label>
 <input type="radio" name="gender" id="m">
@@ -55,8 +58,44 @@
 
 
 <input type="color" name="" id="color">
+<input type="tel" name="" id="">
+
+
+
+
+<!-- FIle -->
+
+<input type="file" name="" id="">
+<!-- Range -->
+
+<input type="range" name="" id="">
+<!--   -->
 <button>Click</button>
-<input type="submit" value="annuler" pattern="">
+
+
+<input type="submit" value="Send data">
+<input type="reset" value="Delete data">
+
+
+
+<!--   Select-->
+
+
+<select name="" id=""   multiple>
+    
+    <option value="HTML">HTML</option>
+    <option value="CSS" >CSS</option>
+    <option value="CSS" >CSS</option>
+    <option value="CSS" >CSS</option>
+    <option value="CSS" >CSS</option>
+</select>
+<hr>
+
+<textarea  cols="50" rows="10" name="" id=""></textarea>
+<hr>
+<button>Send data 2</button>
+<button type="reset">Annuler</button>
+
     </form>
 
 
