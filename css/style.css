@@ -106,3 +106,28 @@ footer .section h2{
 li:not(.my_item){
     color: red;
 }
+
+
+.cls{
+
+width: 612px;
+height: 595px;
+
+/* background-color: red; */
+
+}
+
+body{
+    background-image: url(https://media.gettyimages.com/id/481616102/fr/photo/apple-montre-sport.jpg?s=612x612&w=gi&k=20&c=gUzzZTF_mdPBPvJZ0bHU_vozIkker4iY3RYjVVe5OIA=);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.avatar{
+    width: 740px;
+    height: 855px;
+    background-image: url(https://img.freepik.com/vecteurs-libre/illustration-du-jeune-homme-souriant_1308-174669.jpg?semt=ais_hybrid&w=740&q=80);
+    scale: 0.5;
+}
