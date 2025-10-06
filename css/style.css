@@ -9,7 +9,9 @@
     property:value;
 } */
 
-
+h3{
+    color: green;
+}
 
 /* Selecteur Css */
 
@@ -131,3 +133,5 @@ body{
     background-image: url(https://img.freepik.com/vecteurs-libre/illustration-du-jeune-homme-souriant_1308-174669.jpg?semt=ais_hybrid&w=740&q=80);
     scale: 0.5;
 }
+
+

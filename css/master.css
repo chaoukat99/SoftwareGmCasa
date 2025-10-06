@@ -1,0 +1,116 @@
+:root{
+    --primary-color:rgb(129, 255, 4);
+    --primary-title:30px
+}
+
+
+/* colors 
+
+-color name 
+
+-rgb   (red green blue)    0-255
+-hex   0- f 
+
+*/
+
+
+
+
+
+.cls{
+    /* color:#1638cc; */
+    /* color: color-mix(in srgb, rgb(53, 29, 29) 30%, rgb(77, 255, 0) 70%) */
+    /* background-color: red;
+    width */
+   
+   
+    
+}
+
+
+
+
+body{
+  /* color: white; */
+   /* background-image: url(https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630); */
+   /* background-repeat: no-repeat;
+   background-size: cover; */
+
+   
+    
+
+}
+/* body{
+   background-image: radial-gradient( circle farthest-corner at 6.3% 21.8%,  rgba(236,6,117,1) 0%, rgba(13,32,67,1) 90% );
+} */
+
+/* .cls{
+
+    width: 300px;
+    height: 100px;
+    background: #fffbd5;  
+background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);  
+background: linear-gradient(to right, #b20a2c, #fffbd5); 
+
+} */
+
+
+
+
+/* .gomy-code-blue{
+    color: rgb(22, 148, 221);
+} */
+/* .cls{
+    width: 600px;
+    height: 100px;
+    background-color:red ;
+} */
+
+/* p{
+    color: blue;
+    width: 600px;
+}
+   */
+
+
+   p{
+    color: var(--primary-color);
+   }
+   ol li{
+    color: var(--primary-color);
+   }
+
+   a{
+    color: var(--primary-color);
+   }
+
+
+   h3{
+    color: var(--primary-color);
+   }
+
+
+/* #about{
+   height: 50vh;
+   background-color: red;
+
+} */
+/* #contact{
+   height: 200px;
+   background-color: green;
+
+} */
+
+
+
+.square{
+    /* width: 100px;
+    height: 100px;
+    background-color: red; */
+
+    /* fonts  */
+    font-size: 30px;
+    /* font-weight: bold; */
+    /* font-style: oblique; */
+    font-family: cursive;
+}
