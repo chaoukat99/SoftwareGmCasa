@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 :root{
     --primary-color:rgb(129, 255, 4);
     --primary-title:30px
@@ -164,9 +164,9 @@ section{
 
    height: 500px;
    border: solid 2px black;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;  */
     
 }
 section p{
@@ -270,4 +270,201 @@ th,td{
     height: 5px;
     margin-top: 10px;
     background-image: linear-gradient(to left , blue , orange);
+}
+
+
+
+/* 
+-Margin 
+-Padding
+-display
+-visibily
+-opacity
+Layout:
+-Position
+
+*/
+
+
+
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+
+   
+}
+
+
+article.gm{
+
+    width: 300px;
+    border: solid;
+    padding: 10px;
+    border:#eee8df 0.3px solid  ;
+    border-radius: 15px;
+}
+
+
+article.gm img{
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+article.gm .btn-container{
+    margin-bottom: 10px;
+   
+    
+    /* margin: 0 auto; */
+}
+article.gm .btn-container span{
+
+    width: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    padding: 1.5px;
+    margin-left:25px ;
+    
+ 
+}
+
+
+.g{
+    background-color: #06522d;
+    color: white;
+    font-weight: bold;
+
+}
+.p{
+    color: white;
+    background-image: linear-gradient(97deg, #9533FC 0%, #FF5FC8 100%);
+  
+    width: 100px;
+
+
+}
+
+
+a[href="test"]{
+    
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+   font-family: "Sora", sans-serif;
+   font-weight: 600;
+   color: black;
+   transition: 0.3s;
+   text-align: justify;
+   margin-left: 10px;
+   
+
+   
+
+}
+
+a[href="test"]:hover{
+    color: rgb(165, 90, 255)
+
+}
+
+article.gm p{
+   font-size: 14px;
+   font-family: "Sora", sans-serif;
+   font-weight: 400;
+   line-height: 24px;
+   width: 90%;
+   margin-left: 10px;
+  
+
+}
+
+
+
+
+
+a[href="test2"]{
+
+display: block;
+background-color: #0f0f0f;
+margin: 0 auto;
+font-size: 16px;
+font-family: "Sora", sans-serif;
+font-weight: 600;
+color: white;
+padding: 5px;
+width: 90%;
+border-radius: 5px;
+
+transition: 0.3s;
+
+
+}
+
+a[href="test2"]:hover{
+    box-shadow: 1px 1px 10px red;
+}
+
+
+
+
+.parent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px ;
+}
+
+
+
+.cls{
+
+    width: 100px;
+    height: 50px;
+    background-color: red;
+/* margin-top: 10px; */
+    /* margin-top: 100px; */
+     margin-left: 150px;
+     padding-top: 13px;
+    transition:0.5s; */
+    /* margin-bottom: 10px; */
+
+}
+.cls2{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(14, 102, 35);
+
+        /* margin-top: 10px; */
+
+}
+input{
+    padding: 10px;
+    border: none;
+    color: red;
+     caret-color: rgb(48, 233, 11);
+}
+::selection{
+    background-color: yellow;
+    color: green;
+}
+
+::placeholder{
+    color: rgb(255, 0, 0);
+    text-align: center;
+   
+}
+
+
+
+.my_span{
+    /* margin-top:10px;
+    margin-left:20px;
+    margin-right:30px;
+    margin-bottom:20px; */
+/* width: 200px; */
+    /* margin:20px 10px 11px; */
+    /* margin: 0px auto;
+    background-color: red;
+    text-align: center; */
 }
