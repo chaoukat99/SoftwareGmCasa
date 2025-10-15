@@ -1,0 +1,156 @@
+.cls{
+    width: 100px;
+    height: 100px;
+    border: solid 2px red;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+.cls:hover{
+    border: solid 2px green;
+}
+
+/* p:hover{
+    margin-left:10px ;
+} */
+
+.btn-youtube{
+    width: 100px;
+    height: 30px;
+    background: rgb(129, 18, 18);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: all .4s ease;
+   
+}
+
+
+
+.btn-youtube:hover ~ ul {
+   left: 0px;
+     
+  
+}
+
+
+
+
+
+input[type="checkbox"]:checked ~ ul {
+    left: 0px;
+}
+
+input[type="text"]:focus ~ .input-content{
+    background-color: #eee;
+    color: red;
+    padding: 20px;
+}
+
+
+/* Uiverse  */
+
+
+ul{
+      width: 100px;
+    padding: 40px;
+    background-color: #eee;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px rgb(31, 85, 222);
+    position: relative;
+    left: -300px;
+    transition: 0.5s;
+}
+
+
+ul li{
+  
+    padding: 5px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.1s;
+    
+}
+
+ul li:hover{
+    background-color: rgb(117, 110, 110);
+    color: white;
+}
+
+
+input[type="text"]:focus{
+    box-shadow: 1px 1px 10px red;
+    outline: none;
+    border: solid 1px black;
+}
+
+
+::-webkit-scrollbar{
+    background-color: rgb(0, 0, 0);
+    
+    width:10px;
+  
+}
+
+
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(35, 245, 203);
+    border-radius: 20px;
+    
+    
+} 
+
+
+
+img{
+    /* width: 300px; */
+    /* filter: opacity(0.1); */
+    /* transition: .5s; */
+    /* filter: blur(0px); */
+    /* filter: grayscale(100%); */
+    /* filter: hue-rotate(180deg); */
+}
+
+img:hover{
+    /* filter: grayscale(0%); */
+}
+
+/* 
+opacity
+visibilty 
+display 
+
+*/
+
+
+.mydiv{
+    width: 100px;
+    height: 60px;
+    background-color: red;
+    /* opacity: 0; */
+    /* visibility: hidden; */
+    /* display: none; */
+}
+/* .mydiv2{
+    width: 100px;
+    height: 60px;
+    background-color: green;
+} */

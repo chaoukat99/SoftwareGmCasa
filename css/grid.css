@@ -1,0 +1,42 @@
+.parent{
+    height: 100vh;
+    border: solid;
+    display: grid;
+    grid-template-columns:repeat(10,1fr);
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: "logo logo logo menuu menuu menuu menuu menuu menuu menuu" "main main main main contact contact contact contact contact contact" "main main main footer footer footer footer footer footer footer";
+}
+
+
+.cls{
+   
+    
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    grid-area: logo;
+}
+.menu{
+grid-area:menuu;
+}
+.main{
+grid-area: main;
+}
+.contact{
+grid-area: contact;
+}
+
+.footer{
+grid-area: footer;
+}
+
+
+
+
+@media
