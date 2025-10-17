@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns:repeat(10,1fr);
     grid-template-rows: 1fr 2fr 1fr;
-    grid-template-areas: "logo logo logo menuu menuu menuu menuu menuu menuu menuu" "main main main main contact contact contact contact contact contact" "main main main footer footer footer footer footer footer footer";
+    grid-template-areas: "logo logo logo menuu menuu menuu menuu menuu menuu menuu" "main main main main contact contact contact contact contact contact" "main main main main footer footer footer footer footer footer";
 }
 
 
